@@ -1,0 +1,9 @@
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\bin\js.dll.config
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\bin\js.dll
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\bin\js.pdb
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\bin\js.xml
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.Resources.resources
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.vbproj.GenerateResource.Cache
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.dll
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.xml
+c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.pdb
