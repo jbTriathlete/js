@@ -1,4 +1,4 @@
-﻿Imports photoViewWiz2.db
+﻿Imports db
 
 Public Class clssql_orders
     Inherits cls_dba
