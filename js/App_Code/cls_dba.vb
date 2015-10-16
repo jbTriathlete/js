@@ -2,6 +2,7 @@
 Imports System.Web
 
 Imports System.Data
+Imports System.Data.SqlClient
 
 Namespace db
 
@@ -11,10 +12,10 @@ Namespace db
         Public z_index As Integer
 
         Public Function getDataset(ByVal inSql As String) As Boolean
-            Dim pgConnection As NpgsqlConnection = New NpgsqlConnection
-            Dim pgCommand As NpgsqlCommand = New NpgsqlCommand
+            Dim pgConnection As SqlConnection = New SqlConnection
+            Dim pgCommand As SqlCommand = New SqlCommand
             Dim pgConnectionString As String
-            Dim sda As NpgsqlDataAdapter
+            Dim sda As SqlDataAdapter
 
             ds = New DataSet
 
@@ -26,10 +27,10 @@ Namespace db
 
             pgCommand.CommandText = inSql
 
-            sda = New NpgsqlDataAdapter(pgCommand)
+            sda = New SqlDataAdapter(pgCommand)
             sda.Fill(ds)
 
-            If pgConnection.FullState = ConnectionState.Open Then
+            If pgConnection.State = ConnectionState.Open Then
                 pgConnection.Close()
 
                 Return True
@@ -47,7 +48,7 @@ Namespace db
             ds.Tables(0).Rows.Add(ds.Tables(0).NewRow())
             z_index = ds.Tables(0).Rows.Count() - 1
 
-           
+
 
         End Function
 
