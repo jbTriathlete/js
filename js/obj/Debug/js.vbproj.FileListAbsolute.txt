@@ -7,3 +7,16 @@ c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.vbproj.
 c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.dll
 c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.xml
 c:\users\jbaker\documents\visual studio 2013\Projects\js\js\obj\Debug\js.pdb
+C:\Users\jonathan\Source\Repos\js\js\bin\js.dll.config
+C:\Users\jonathan\Source\Repos\js\js\bin\js.dll
+C:\Users\jonathan\Source\Repos\js\js\bin\js.pdb
+C:\Users\jonathan\Source\Repos\js\js\bin\js.xml
+C:\Users\jonathan\Source\Repos\js\js\obj\Debug\js.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Source\Repos\js\js\obj\Debug\js.Resources.resources
+C:\Users\jonathan\Source\Repos\js\js\obj\Debug\js.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Source\Repos\js\js\obj\Debug\js.dll
+C:\Users\jonathan\Source\Repos\js\js\obj\Debug\js.xml
+C:\Users\jonathan\Source\Repos\js\js\obj\Debug\js.pdb
+C:\Users\jonathan\Source\Repos\js\js\bin\Npgsql.dll
+C:\Users\jonathan\Source\Repos\js\js\bin\Npgsql.pdb
+C:\Users\jonathan\Source\Repos\js\js\bin\Npgsql.xml
