@@ -25,7 +25,7 @@ body, html {
   /* important */
   height: 100%;
 }
-
+ 
 a {
   color: #b4d7a8;
   text-decoration: none;
@@ -262,20 +262,29 @@ Main components
 .intro-message {
     position: relative;
     padding-top: 20%;
-    padding-bottom: 20%;
+    /*padding-bottom: 10%;*/
 }
 /*Big header*/
-.intro-message > h1 {
-    margin-top: -50px;
+.intro-message   {
+    /*margin-top: -50px;*/
+    position:center;
     text-shadow: 2px 1px 2px #000;
-    font-size: 5em;
+    font-size: 35px;
     color: rgba(255, 255, 255, 0.7);
 }
 
+.intro-message2   {
+    position:center;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
 .intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 200px;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .btn:hover {
@@ -287,4 +296,12 @@ Main components
   // transition is only when going to hover, otherwise the background
   // behind the gradient (there for IE<=9 fallback) gets mismatched
   .transition(background-position .1s linear);
+}
+
+.roundimage {
+    width:250px;
+    border-radius:253px 253px 253px 253px;
+    border:11px solid #021a40;
+    padding:4px;
+    
 }

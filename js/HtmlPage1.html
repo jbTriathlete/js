@@ -1,4 +1,16 @@
-﻿<html lang="en">
+﻿<script  >
+    $(function () {
+        $(".nav li").click(function () {
+            $(".nav li").removeClass('active');
+            setTimeout(function () {
+                var page = $.QueryString("page");
+                $(".nav li:eq(" + page + ")").addClass("active");
+            }, 300);
+
+        });
+    });
+</script>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -51,12 +63,9 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#name">Home</a></li>
-
+                        <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#about">Code Demo's</a></li>
-
-                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -66,32 +75,87 @@
     </header>
     <main class="cd-main-content">
         <a name="home">
-            <div class="cd-fixed-bg cd-bg-1 intro-message">
-                <h1 class="text-center">Jonathan Baker - Senior Software Engineer </h1>
-                <h3 class="text-center">Where Awesomeness is brought to life.</h3>
-                <hr class="intro-divider"><hr />
-                <br /><br /><center>
-                    <ul class="btn btn-default" href="http://www.linkedin.com/in/JonathanABaker1" role="button">LinkedIn</ul>
-                    <ul class="btn btn-default" href="https://github.com/jbTriathlete" role="button">GitHub</ul>
-                </center>
+            <!-- <div class="cd-fixed-bg cd-bg-1 intro-message  ">-->
+            <div class="cd-fixed-bg cd-bg-1   ">
+                <div class="container">
+                    <div class="row intro-message">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 text-center"> Jonathan Baker - Senior Software Engineer     </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row intro-message2 ">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 text-center"> Dallas - Ft Worth, TX </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 intro-divider"></div>
+                        <div class="col-md-2"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 text-center">
+                            <ul class="btn btn-default" href="http://www.linkedin.com/in/JonathanABaker1" role="button">LinkedIn</ul>
+                            <ul class="btn btn-default" href="https://github.com/jbTriathlete" role="button">GitHub</ul>
+                            <ul class="btn btn-default" href="http://www.jonbakerphotography.com" role="button">Photography</ul>
+                        </div>
+                        <div class="col-md-4"></div>
+
+                    </div>
+
+                </div>
 
             </div>
         </a><!-- cd-fixed-bg -->
-        <div class="cd-scrolling-bg cd-color-2">
-            <a name="about">
+        <a name="about">
+            <div class="cd-scrolling-bg cd-color-2">
+
                 <div class="cd-container">
-                    <p>
-                         I am a Software Engineer with over 14 years of experience in a wide variety of Dev environments.  I graduated from Texas A&M University - Commerce in 2001 with a degree in Computer Science.  My specialities include VB.NET, ASP.NET, SQL Server and Javascript.  
-                    </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/DSC_6749LinkedIn.jpg" class="roundimage" />
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                          I am a Software Engineer with over 14 years of experience in a wide variety of Dev environments.  
+                            I graduated from Texas A&M University - Commerce in 2001 with a degree in Computer Science.  
+                        </p>
+                        <strong>Areas of Expertise</strong>
+                        <ul>
+                            <li><strong>Languages:</strong>  ASP.NET, VB.NET, VB, ASP, C, C++, HTML, XML, SQL, JavaScript, CSS</li>
+                            <li><strong>Databases:</strong>  SQL Server 2000/2005/2008/2012</li>
+                            <li> <strong>Database Tools:</strong>  Enterprise Manager, SQL Server Management Studio(SSMS), DTS.</li>
+                            <li><strong>Reporting Tools:</strong> Excel, SQL Server Reporting Services 2005, ActiveReports.</li>
+                            <li><Strong>Developer Tools:</Strong> Visual SourceSafe, Visual Studio 2003-2013, Telerik UI for ASP.net AJAX, Infragistics.</li>
+                        </ul>
+                  
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                 
+                   
                 </div> <!-- cd-container -->
-        </div> <!-- cd-scrolling-bg -->
-        <div class="cd-fixed-bg cd-bg-2">
-            <h2>Here are some examples of my work.  I have included a wide variety of work.</h2>
-            <ul class="btn btn-default" href="http://www.linkedin.com/in/JonathanABaker1" role="button">.Net(asp.net,C#,Vb.net,MVC,ect...)</ul>
-            <ul class="btn btn-default" href="https://github.com/jbTriathlete" role="button">JavaScript</ul>
-        </div> <!-- cd-fixed-bg -->
+            </div> <!-- cd-scrolling-bg -->
+        </a>
+        <a name="portfolio">
+            <div class="cd-fixed-bg cd-bg-2">
 
+                <h2>Portfolio</h2>
+                <p>Coming Soon!!</p>
 
+            </div>
+        </a>
+        <!-- cd-fixed-bg -->
+        <a name="contact">
+            <div class="cd-scrolling-bg cd-color-2">
+
+                <div class="cd-container">
+
+                </div> <!-- cd-container -->
+            </div> <!-- cd-scrolling-bg -->
+        </a>
     </main>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->

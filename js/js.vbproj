@@ -41,9 +41,6 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Npgsql">
-      <HintPath>..\..\..\..\..\..\localwork\js\js-master\js\bin\Npgsql.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -93,21 +90,16 @@
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
+    <Content Include="images\DSC_6749LinkedIn.jpg" />
+    <Content Include="images\DSC_6749WebRes.jpg" />
     <Content Include="images\img_0021.jpg" />
     <Content Include="images\img_0402.jpg" />
     <Content Include="images\IMG_0548.jpg" />
     <Content Include="images\Kemah15_jsr002670 282.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cls_dba.vb" />
-    <Content Include="clsdlo_customer.vb" />
-    <Content Include="clsdlo_orders.vb" />
-    <Content Include="clssql_customer.vb" />
-    <Content Include="clssql_orders.vb" />
-    <Compile Include="Class1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -126,13 +118,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

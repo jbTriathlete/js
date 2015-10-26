@@ -37,14 +37,21 @@ js
  Returns the Asp log object.
  </summary>
 </member>
-<member name="F:js.WebForm1._form1">
+<member name="T:js.My.Resources.Resources">
 <summary>
-form1 control.
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
+</member>
+<member name="P:js.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:js.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
 </member>
 </members>
 </doc>
