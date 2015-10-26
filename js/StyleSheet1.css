@@ -203,7 +203,7 @@ Main components
   color: silver;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("images/img_0402.jpg");
+  background-image: url("images/Kemah15_282.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("images/IMG_0548.jpg");
@@ -287,21 +287,32 @@ Main components
     margin-bottom:20px;
 }
 
-.btn:hover {
-    color: darkgreen !important;
-   
-  background-color:  darkgrey !important;
-  
-
-  // transition is only when going to hover, otherwise the background
-  // behind the gradient (there for IE<=9 fallback) gets mismatched
-  .transition(background-position .1s linear);
-}
-
+ 
 .roundimage {
     width:250px;
     border-radius:253px 253px 253px 253px;
     border:11px solid #021a40;
     padding:4px;
     
+}
+.btn {
+  display: inline-block;
+  color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+	color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
 }
