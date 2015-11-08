@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<style>
+    .hello {
+        font-family: 'Yu Gothic';
+        font-size:x-large;
+    }
+</style>
+<script language="javascript">
+  
+   
+    function myFunction() {
+        var myArr = ["your success is determined by no one else but you!|-Trainer Jones" ,  "Embrace Change|-Trainer Jones " , "I am the WAY, The Truth , the Life those who wish to go to the father must first come through me| -JESUS"];
+        var getIndex = myArr.indexOf(document.getElementById("quote").innerHTML + "|" + document.getElementById("author").innerHTML)
+        var ex = getIndex + 1;
+        var Qt = myArr[ex % myArr.length].split("|")
+        document.getElementById("quote").innerHTML = Qt[0];
+        document.getElementById("author").innerHTML = Qt[1];
+    }
+</script>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <title>Jon Baker - Applications Developer</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+     
+
+   
+</head>
+
+<body>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="hello text-center">
+            Random Quote Machine
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="well" id="myWell">
+                <p id="quote" class="text-center"></p>
+                <p id="author" class="text-center"></p>
+            </div>
+             
+        </div>
+        <div class="col-md-4"> </div>
+    </div>
+    <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <button class="btn btn-default" onclick="myFunction()">Next Quote!!</button>
+            </div>
+            <div class="col-md-5"> </div>
+    </div>
+
+        
+
+</body>
+</html>
