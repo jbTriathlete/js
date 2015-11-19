@@ -97,6 +97,7 @@
     <Content Include="images\img_0402.jpg" />
     <Content Include="images\IMG_0548.jpg" />
     <Content Include="images\Kemah15_282.jpg" />
+    <Content Include="Pomodoro.html" />
     <Content Include="quoteMachine.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
